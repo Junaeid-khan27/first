@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* Common CSS */
+
+:root {
+    --primary-color: #F0A500;
+    --bg-color: #161616;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header start */
+
+.to-do-contant .contant-one {
+    width: 20%;
+}
+.to-do-contant .contant-tow {
+    width: 80%;
+}
+
+.contant-one {
+    background-color: #F4F4F4;
+    padding: 10px 15px 150px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.contant-one .color .red {
+    width: 40px;
+    height: 25px;
+    background-color: #FBECB2;
+    margin: 0 5px;
+}
+.contant-one .color .blue {
+    width: 40px;
+    height: 25px;
+    background-color: #F8BDEB;
+    margin: 0 5px;
+}
+.contant-one .color .purple {
+    width: 40px;
+    height: 25px;
+    background-color: #A3C8FF;
+    margin: 0 5px;
+}
+.contant-one .color .white {
+    width: 40px;
+    height: 25px;
+    background-color: #FFA6A6;
+    margin: 0 5px;
+}
+
+.complete a {
+    color: black;
+}
+
+/* Header end */
+
+/* contant area start */
+
+.navbar {
+    background-color: #F4F4F4;
+}
+
+.contant-tow {
+    margin: 0 10px;
+}
+
+.task-one {
+    width: 268px;
+    height: 150px;
+    padding: 15px 10px;
+    background-color: #FBECB2;
+    cursor: pointer;
+}
+
+.black {
+    background-color: #161616;
+}
+
+.rose {
+    background-color: #FBECB2;
+}
+
+.task-tow {
+    padding: 15px 10px;
+    background-color: #F8BDEB;
+}
+
+.red {
+    background-color: #F8BDEB;
+}
+
+.task-three {
+    padding: 15px 10px;
+    background-color: #A3C8FF;
+}
+
+.green {
+    background-color: #A3C8FF;
+}
+
+.task-four {
+    padding: 15px 10px;
+    background-color: #FFA6A6;
+}
+
+.deeprose {
+    background-color: #FFA6A6;
+}
+
+.task-five {
+    background-color: #F4F4F4;
+}
+
+.task-five .first {
+    font-size: 90px;
+}
+
+.modal-header {
+    border-bottom: transparent;
+}
+.modal-footer {
+    border-top: transparent;
+}

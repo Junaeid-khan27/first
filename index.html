@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junaeid Ahmad (Jk)</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+  <section>
+    <div class="container">
+      <div class="to-do-contant d-flex my-3">
+
+        <!-- Header start -->
+
+        <div class="contant-one">
+          <div class="menu"><h3>Menu</h3></div>
+        <div class="task mt-5"><h5>#Task</h5></div>
+        <div class="my-3">
+          <div>
+            <div class="complete d-flex">
+              <p><a id="complete-atag" href="#">Complete</a></p>
+              <span id="total-complete" class="ms-auto">00</span>
+            </div>
+            <div class="complete d-flex">
+              <p><a id="running-atag" href="#">Running</a></p>
+              <span id="total-running" class="ms-auto">00</span>
+            </div>
+            <div class="complete d-flex">
+              <p><a id="cancel-atag" href="#">Cancel</a></p>
+              <span id="total-cancel" class="ms-auto">00</span>
+            </div>
+            <div class="complete d-flex">
+              <p><a id="upcoming-atag" href="#">Upcoming</a></p>
+              <span id="total-upcoming" class="ms-auto">00</span>
+            </div>
+            
+          </div>
+        </div>
+        <div class="filter mt-5"><h5>#Filter</h5></div>
+        <div class="color d-flex">
+          <div class="red"></div>
+          <div class="blue"></div>
+          <div class="purple"></div>
+          <div class="white"></div>
+        </div>
+        </div>
+
+        <!-- Header end -->
+
+        <!-- Contant Area start -->
+
+        <div class="contant-tow">
+          <nav class="navbar ">
+            <div class="container-fluid">
+              <a class="navbar-brand">Manage Your Task Here</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+          </nav>
+          <div class="manage-contant text-center">
+            <div id="row-div" class="row mt-3">
+            <!-- Keep this empty -->
+            </div> 
+            <div class="col-lg-4 my-3">
+              <div class="task-five">
+                
+              <button type="button" class="btn first" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                +
+              </button>
+             
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <form id="form">
+                      <div class="modal-header">
+                        <input name="title" type="text" class="form-control" placeholder="Title">
+                      </div>
+                      <div class="modal-body">
+                      <textarea name="text" class="form-control" placeholder="Description"></textarea>
+                      </div>
+                      <div>
+                        <select name="status" id="select" class="form-select" aria-label="Default select example">
+                          <option value="Complete">Complete</option>
+                          <option value="Running">Running</option>
+                          <option value="Cancel">Cancel</option>
+                          <option value="Upcoming">Upcoming</option>
+                        </select>
+                      </div>
+                      <div class="modal-footer">
+                        <button id="btn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Add</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contant Area end -->
+    </div>
+  </section>
+  
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
+
+
